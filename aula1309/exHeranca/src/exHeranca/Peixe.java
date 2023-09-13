@@ -1,7 +1,7 @@
 package exHeranca;
 
 public class Peixe extends Animal {
-	String caracteristica;
+	private String caracteristica;
 	
 	public Peixe(String nome, float comprimento,int numeroPatas, String cor, String ambiente, float velocidadeMedia, String caracteristica) {
 		super(nome,comprimento,numeroPatas,cor,ambiente,velocidadeMedia);

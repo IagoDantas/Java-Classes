@@ -1,7 +1,7 @@
 package exHeranca;
 
 public class Mamifero extends Animal{
-	String alimento;
+	private String alimento;
 	
 	public Mamifero(String nome, float comprimento,int numeroPatas, String cor, String ambiente, float velocidadeMedia, String alimento) {
 		super(nome,comprimento,numeroPatas,cor,ambiente,velocidadeMedia);
@@ -11,7 +11,6 @@ public class Mamifero extends Animal{
 	public Mamifero() {
 		
 	}
-	
 	
 	public void setAlimento(String alimento) {
 		this.alimento = alimento;
